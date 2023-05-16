@@ -1,2 +1,2 @@
-# ultra-essentials
+# Ultra Essentials Project
 Blackboard Ultra Essentials
