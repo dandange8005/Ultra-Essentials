@@ -1,0 +1,10 @@
+# site informaiotn
+site_name: Ultra Essentials
+# repo_url: https://github.com/dandange8005/mkdocs-test
+# repo_name: dandange8005/mkdocs-test
+#edit_uri: edit/main/docs/
+
+# theme settings
+
+theme:
+  name: material
