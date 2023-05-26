@@ -4,7 +4,7 @@ ULTRA navigation is designed to be intuitive - it is almost impossible to get lo
 
 As soon as you log in, you have access to all the core features from the main menu where your name appears. You can easily return to this menu from wherever you are—even if you're in a course. The menu peeks from behind the other layers you have open.
 
-When you select any link from this menu, you see a global view across all your courses. For example, Grades shows all your grading tasks organized by course, and Calendar collates events from all your courses. 
+Adding this from Labixiaonan's contribution.
 
 ## Quick Start Guide - Base Navigation 
 
