@@ -1,56 +1,21 @@
 # Ultra Essentials Project
-Blackboard Ultra Essentials
+This Github repo is a folk of the Ultra Essentials Project developed by the DigEd (Digital Education) team at Cardiff University. The original project is developed with Xerte and published at [Ultra Essentials](https://xerte.cardiff.ac.uk/play_18321#UltraEssentials) website. The aim of this folk is to host the project on Github with the following objectives:
 
-## How to contribute
-
-### Within the Organization
-
-1. Request to join the repository as a contributor
-2. Create your own branch
-3. Make your changes
-4. Create a pull request
-5. Wait for the pull request to be reviewed and merged
-6. Delete your branch
-7. Repeat
-
-### Outside the Organization
-
-1. Fork the repository
-2. Make your changes
-3. Create a pull request
-4. Wait for the pull request to be reviewed and merged
-5. Repeat
-
-Find out more from [Contribution Guidelines](Contribution guide.md)
+1. To make the project more accessible to the DigEd team as well as the wider community of learning technologists and educators.
+2. To enable the features of Github such as version control, issue tracking, and pull requests.
+3. To convert the original project to a static website using [MkDocs](https://www.mkdocs.org/). The static website will be hosted on Github Pages and published here https://dandange8005.github.io/ultra-essentials/.
 
 
+## Contributing to the project
 
-## Steps to create the local environment
+Contributions from within the organisation and outside the organisation are welcome. The following steps are recommended for contributing to the project.
 
-1. Install python3
-2. Install pip3
-3. Install mkdocs-material
-4. Run mkdocs new .
-5. Run mkdocs serve
-6. Start building the docs
-7. create github action to build and deploy the docs
+Different ways of contributing to the project:
 
-## Temp notes
+- Raise an issue
+- Request to be a contributor (link to a form) (within the team)
+- [Fork the repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo) (outside the team)
 
-some MKDOCS commands
-
-mkdocs new [dir-name] - Create a new project.
-
-creating a new project in the current directory
-```bash
-mkdocs new .
-```
-
-`mkdocs serve` - Start the live-reloading docs server.
-`mkdocs build` - Build the documentation site.
-`mkdocs -h` - Print help message and exit.
-`mkdocs gh-deploy` - Deploy site to GitHub Pages.
-`mkdocs -version` - Print the version of MkDocs.
 
 ## Project layout
 
