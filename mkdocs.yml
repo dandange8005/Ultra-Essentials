@@ -1,10 +1,13 @@
 # site informaiotn
 site_name: Ultra Essentials
-# repo_url: https://github.com/dandange8005/mkdocs-test
-# repo_name: dandange8005/mkdocs-test
+repo_url: https://github.com/dandange8005/ultra-essentials
+repo_name: dandange8005/ultra-essentials
 #edit_uri: edit/main/docs/
 
 # theme settings
 
 theme:
   name: material
+  #font:
+    #text: Inter
+    # code: Roboto Mono
