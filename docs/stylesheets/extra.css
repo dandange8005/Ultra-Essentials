@@ -1,0 +1,13 @@
+/* This is where the custom styles goes */
+
+:root {
+
+    --primary: #73479C;
+  
+    /* Primary color shades */
+  
+    --md-primary-fg-color: var(--primary);
+    --md-primary-fg-color--light: #3556b3;
+    --md-primary-fg-color--dark:  #142e75;
+  
+  }

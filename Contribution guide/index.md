@@ -28,17 +28,6 @@
 6. Start building the docs
 7. create github action to build and deploy the docs
 
-## Temp notes
-
-some MKDOCS commands
-
-mkdocs new [dir-name] - Create a new project.
-
-creating a new project in the current directory
-```bash
-mkdocs new .
-```
-
 ## MKDOCS Material
 
 
@@ -47,3 +36,17 @@ mkdocs new .
 `mkdocs -h` - Print help message and exit.
 `mkdocs gh-deploy` - Deploy site to GitHub Pages.
 `mkdocs -version` - Print the version of MkDocs.
+
+creating a new project in the current directory
+```bash
+mkdocs new .
+```
+
+### Plugins used in the project
+
+The project uses a number of plugins to enhance the functionality of the site. The plugins are listed below:
+
+- [x] [mkdocs-git-revision-date-localized-plugin](https://github.com/timvink/)
+- [x] [roamlinks](https://github.com/Jackiexiao/mkdocs-roamlinks-plugin)
+- [x] [mkdocs-static-i18n](https://github.com/ultrabug/mkdocs-static-i18n)
+- [ ] [MkDocs Awesome Pages Plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin)
