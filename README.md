@@ -20,6 +20,7 @@ Different ways of contributing to the project:
 - Request to be a contributor (link to a form) (within the team)
 - [Fork the repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo) (outside the team)
 
+For more information on how to contribute to the project, please see the [contribution guide](contribution guide.md).
 
 <!-- ## Project layout
 
@@ -27,3 +28,49 @@ Different ways of contributing to the project:
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files. -->
+
+## Why Git and Github?
+
+When we think about version control, we often think about software development. However, version control can be used for any type of project that involves multiple people working on the same files. It is a great way to keep track of changes and to collaborate with others.
+
+Git is a version control system that allows you to track changes to files and folders. It is a distributed version control system which means that every user has a copy of the repository on their local machine. This allows users to work on the project offline and then push the changes to the remote repository when they are ready.
+
+Github is a web-based hosting service for Git repositories. It provides a web-based graphical interface and access control for repositories. It also provides additional features such as issue tracking, pull requests, and project management tools.
+
+### Learning Git and Github
+
+This is not a tutorial on how to use Git and Github. If you are new to Git and Github, we recommend that you learn the basics before contributing to the project.
+
+There are many resources available for learning Git and Github. Here are a few that we recommend:
+
+- [Github Guides](https://guides.github.com/)
+- [Git Handbook](https://guides.github.com/introduction/git-handbook/)
+- [Learn Git](https://www.w3docs.com/learn-git.html)
+- [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+- [Version Control with Git](https://www.coursera.org/learn/version-control-with-git)
+
+
+## Why NOT Xerte
+
+Though Xerte is a great tool for creating online resources, it is not ideal for creating documentations. Xerte doesn't come with a lot of features that are essential for creating documentations. 
+
+For example:
+
+- Xerte doesn't support Markdown syntax
+- Xerte doesn't support version control
+- Xerte doesn't support collaboration in a way that is easy to know who is working on what
+- Xerte doesn't support search
+- Xerte doesn't support localisation nativly
+- Xerte Bootstrap template doesn't support multi-level navigation
+
+## About Material for MkDocs
+
+MkDocs is a static site generator that allows you to create a website from a set of markdown files. It is a Python-based tool that is easy to use and configure. It also provides a number of themes and plugins to customise the look and feel of the website.
+
+For more information on MkDocs, please see the [user guide](https://www.mkdocs.org/user-guide/).
+
+Material for MkDocs is a theme for MkDocs that is based on the Material Design guidelines. It provides a clean and modern look and feel for your documentation. It also provides a number of features such as a search bar, a table of contents, and a sidebar.
+
+For more information on Material for MkDocs, please see the [documentation](https://squidfunk.github.io/mkdocs-material/).
+
+
