@@ -49,6 +49,11 @@ There are many resources available for learning Git and Github. Here are a few t
 - [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 - [Version Control with Git](https://www.coursera.org/learn/version-control-with-git)
 
+### Tools for Git
+
+- [Sourcetree](https://www.sourcetreeapp.com/)
+- [GitHub Desktop](https://desktop.github.com/)
+- Command Line Interface (CLI)
 
 ## Why NOT Xerte
 
