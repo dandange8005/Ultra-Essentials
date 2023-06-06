@@ -48,7 +48,8 @@ There are many resources available for learning Git and Github. Here are a few t
 - [Learn Git](https://www.w3docs.com/learn-git.html)
 - [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 - [Version Control with Git](https://www.coursera.org/learn/version-control-with-git)
-
+- [Learn Git Branching](https://learngitbranching.js.org/) - most visual and interactive way to learn Git on the web
+- [Git Immersion](https://gitimmersion.com/) - a guided tour that walks through the fundamentals of Git
 ### Tools for Git
 
 - [Sourcetree](https://www.sourcetreeapp.com/)
