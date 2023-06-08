@@ -23,4 +23,4 @@ The sample file has different column headers which can be described as such:
 **Group Code*:** The unique identifier for the group. It doesn’t show anywhere so you could call it Group 1, Group 2, Group 3 etc. for simplicity’s sake. The important thing is that it needs to be unique for each group within the Group Set.
 
 
-Here are some more comments 
+This is me continuing updating this file from Jacob.
