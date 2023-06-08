@@ -20,7 +20,8 @@ Different ways of contributing to the project:
 - Request to be a contributor (link to a form) (within the team)
 - [Fork the repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo) (outside the team)
 
-For more information on how to contribute to the project, please see the [[contribution guide]].
+For more information on how to contribute to the project, please see the [contribution guidelines for this project](contributing.md).
+
 
 <!-- ## Project layout
 
@@ -28,6 +29,19 @@ For more information on how to contribute to the project, please see the [[contr
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files. -->
+
+## Why NOT Xerte
+
+Though Xerte is a great tool for creating online resources, it is not ideal for creating collaborative documentations. It also creates a lot of barriers when it comes to ownership, version control, and collaboration.
+
+Here are some of the challenges we have identified:
+
+- Xerte doesn't support version control
+- Xerte doesn't support collaboration in a way that is easy to work out who is working on what
+- Xerte doesn't support search
+- Xerte doesn't support localisation nativly
+- Xerte Bootstrap template doesn't support multi-level navigation
+- Xerte doesn't support Markdown syntax
 
 ## Why Git and Github?
 
@@ -37,9 +51,9 @@ Git is a version control system that allows you to track changes to files and fo
 
 Github is a web-based hosting service for Git repositories. It provides a web-based graphical interface and access control for repositories. It also provides additional features such as issue tracking, pull requests, and project management tools.
 
-### Learning Git and Github
+### More about Git and Github
 
-This is not a tutorial on how to use Git and Github. If you are new to Git and Github, we recommend that you learn the basics before contributing to the project.
+If you are new to Git and Github, we recommend that you learn the basics before contributing to the project.
 
 There are many resources available for learning Git and Github. Here are a few that we recommend:
 
@@ -50,24 +64,14 @@ There are many resources available for learning Git and Github. Here are a few t
 - [Version Control with Git](https://www.coursera.org/learn/version-control-with-git)
 - [Learn Git Branching](https://learngitbranching.js.org/) - most visual and interactive way to learn Git on the web
 - [Git Immersion](https://gitimmersion.com/) - a guided tour that walks through the fundamentals of Git
+
 ### Tools for Git
 
-- [Sourcetree](https://www.sourcetreeapp.com/)
-- [GitHub Desktop](https://desktop.github.com/)
-- Command Line Interface (CLI)
+- [Sourcetree](https://www.sourcetreeapp.com/) - a free Git GUI client for Windows and Mac
+- [GitHub Desktop](https://desktop.github.com/) - a free Git GUI client for Windows and Mac developed by Github
+- Visual Studio Code - a free code editor that provides Git integration
+- Command Line Interface (CLI) - Git is a command line tool so you can use it from the command line. If you are using Windows, you can use [Git Bash](https://gitforwindows.org/) which is a command line tool that provides a Bash shell. If you are using Mac, you can use the Terminal app which is a command line tool that provides a Bash shell.
 
-## Why NOT Xerte
-
-Though Xerte is a great tool for creating online resources, it is not ideal for creating documentations. Xerte doesn't come with a lot of features that are essential for creating documentations. 
-
-For example:
-
-- Xerte doesn't support Markdown syntax
-- Xerte doesn't support version control
-- Xerte doesn't support collaboration in a way that is easy to know who is working on what
-- Xerte doesn't support search
-- Xerte doesn't support localisation nativly
-- Xerte Bootstrap template doesn't support multi-level navigation
 
 ## About Material for MkDocs
 
