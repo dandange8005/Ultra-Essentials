@@ -47,6 +47,14 @@ Here are some of the challenges we have identified:
 
 When we think about version control, we often think about software development. However, version control can be used for any type of project that involves multiple people working on the same files. It is a great way to keep track of changes and to collaborate with others.
 
+Benefits of using Git and Github:
+
+- Version control
+- Collaboration
+- Issue tracking
+- Branching
+- Community
+
 Git is a version control system that allows you to track changes to files and folders. It is a distributed version control system which means that every user has a copy of the repository on their local machine. This allows users to work on the project offline and then push the changes to the remote repository when they are ready.
 
 Github is a web-based hosting service for Git repositories. It provides a web-based graphical interface and access control for repositories. It also provides additional features such as issue tracking, pull requests, and project management tools.
@@ -80,6 +88,21 @@ MkDocs is a static site generator that allows you to create a website from a set
 For more information on MkDocs, please see the [user guide](https://www.mkdocs.org/user-guide/).
 
 Material for MkDocs is a theme for MkDocs that is based on the Material Design guidelines. It provides a clean and modern look and feel for your documentation. It also provides a number of features such as a search bar, a table of contents, and a sidebar.
+
+Benefits of using Material for MkDocs:
+
+- Documentation
+- Clean and modern look and feel
+- Responsive design
+- Search bar
+- Automatic table of contents
+- Dynamic navigation
+- Customisable
+- Easy to use and configure
+- Markdown syntax
+- localisation
+- Accessibility
+- Free and open source
 
 For more information on Material for MkDocs, please see the [documentation](https://squidfunk.github.io/mkdocs-material/).
 
