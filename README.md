@@ -36,12 +36,12 @@ Though Xerte is a great tool for creating online resources, it is not ideal for 
 
 Here are some of the challenges we have identified:
 
-- Xerte doesn't support version control
-- Xerte doesn't support collaboration in a way that is easy to work out who is working on what
-- Xerte doesn't support search
-- Xerte doesn't support localisation nativly
+- Xerte is not a dedicated content management system
+- There is no version control in Xerte
+- Xerte doesn't support collaboration in a way that is easy to work out who has updated what
+- Lacking comprehensive search function
+- Doesn't support localisation nativly
 - Xerte Bootstrap template doesn't support multi-level navigation
-- Xerte doesn't support Markdown syntax
 
 ## Why Git and Github?
 
@@ -55,13 +55,11 @@ Benefits of using Git and Github:
 - Branching
 - Community
 
-Git is a version control system that allows you to track changes to files and folders. It is a distributed version control system which means that every user has a copy of the repository on their local machine. This allows users to work on the project offline and then push the changes to the remote repository when they are ready.
+<!-- Git is a version control system that allows you to track changes to files and folders. It is a distributed version control system which means that every user has a copy of the repository on their local machine. This allows users to work on the project offline and then push the changes to the remote repository when they are ready.
 
-Github is a web-based hosting service for Git repositories. It provides a web-based graphical interface and access control for repositories. It also provides additional features such as issue tracking, pull requests, and project management tools.
+Github is a web-based hosting service for Git repositories. It provides a web-based graphical interface and access control for repositories. It also provides additional features such as issue tracking, pull requests, and project management tools. -->
 
 ### More about Git and Github
-
-If you are new to Git and Github, we recommend that you learn the basics before contributing to the project.
 
 There are many resources available for learning Git and Github. Here are a few that we recommend:
 
@@ -82,6 +80,8 @@ There are many resources available for learning Git and Github. Here are a few t
 
 
 ## About Material for MkDocs
+
+You may have noticed that the project has also been published to https://dandange8005.github.io/ultra-essentials/ which is a documentation site hosted on Github. It uses a tool called MKDocs to help with generating the site from the files that are stored in markdown format.
 
 MkDocs is a static site generator that allows you to create a website from a set of markdown files. It is a Python-based tool that is easy to use and configure. It also provides a number of themes and plugins to customise the look and feel of the website.
 
