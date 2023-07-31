@@ -18,6 +18,3 @@ The range of question types available in Ultra is slightly more restricted than 
 All of these question types are graded automatically, except for Essay Questions which need to be manually marked.
 
 [More information about question types from Blackboard Help](https://help.blackboard.com/Learn/Instructor/Ultra/Tests_Pools_Surveys/Question_Types)
-
-!!! warning Note
-    Click the slider to switch OFF this functionality if you will not be checking submissions for additional content.

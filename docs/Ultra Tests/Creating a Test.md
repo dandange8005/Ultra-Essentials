@@ -25,3 +25,5 @@ At the end of any test, there is an option to allow students to add additional c
 
 ![Test settings](https://xerte.cardiff.ac.uk/USER-FILES/18321-wdmsev-site/media/image(79).png)
 
+!!! warning Note
+    Click the slider to switch OFF this functionality if you will not be checking submissions for additional content.
