@@ -10,7 +10,7 @@ With that in mind, there are a few objectives I'd like to achieve:
 
 1. To make the project more accessible to the DigEd team as well as the wider community of learning technologists and educators.
 2. To take advantages of Git and Github such as branches, version control, issue tracking, and pull requests to enhance the current workflow.
-3. To use static site generator such as [MkDocs](https://www.mkdocs.org/) to publish the changes automatically. Here is an example of what the published project looks like: https://dandange8005.github.io/ultra-essentials/.
+3. To use static site generator such as [MkDocs](https://www.mkdocs.org/) to publish the changes automatically. Here is an example of what the published project looks like: [https://dandange8005.github.io/ultra-essentials/](https://dandange8005.github.io/Ultra-Essentials/).
 
 
 ## Contributing to the project
