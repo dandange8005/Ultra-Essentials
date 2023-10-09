@@ -1,4 +1,4 @@
-## Changes to Terminology
+# Changes to Terminology
 
 If you have used Tests in Original, you should be aware of the following changes to terminology in Ultra.
 

@@ -1,6 +1,6 @@
 **Question Pools** allow you to serve different questions to students sitting the same test. You can decide how many questions from the Pool to display in the Test. They are then delivered in a random order. 
 
-Questions in a Pool remain directly linked to the Question Bank - i.e. If you edit a question from a Pool, the edit will propagate through to everywhere the question appears. 
+Questions in a Pool remain directly linked to the Question Bank - i.e. If you edit a question from a Pool, the edit will propagate through to everywhere the question appears.
 
 ## Video Guide - adding question pools to tests
 
