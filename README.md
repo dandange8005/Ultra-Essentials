@@ -86,7 +86,7 @@ There are many resources available for learning Git and Github. Here are a few t
 
 ## About Material for MkDocs
 
-You may have noticed that the project has also been published to https://dandange8005.github.io/ultra-essentials/ which is a documentation site hosted on Github. It uses a tool called MKDocs to help with generating the site from the files that are stored in markdown format.
+You may have noticed that the project has also been published to [https://dandange8005.github.io/ultra-essentials/](https://dandange8005.github.io/Ultra-Essentials/) which is a documentation site hosted on Github. It uses a tool called MKDocs to help with generating the site from the files that are stored in markdown format.
 
 MkDocs is a static site generator that allows you to create a website from a set of markdown files. It is a Python-based tool that is easy to use and configure. It also provides a number of themes and plugins to customise the look and feel of the website.
 
