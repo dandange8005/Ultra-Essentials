@@ -2,12 +2,23 @@
 
 :root {
 
-    --primary: #73479C;
-  
-    /* Primary color shades */
-  
-    --md-primary-fg-color: var(--primary);
-    --md-primary-fg-color--light: #3556b3;
-    --md-primary-fg-color--dark:  #142e75;
-  
-  }
+  /* primary colours */
+  --cu-red: #E4251B;
+  --cu-black: #121212;
+
+  /* secondary colours */
+  --cu-fortest-green: #07873E;
+  --cu-cadet: #5EB99B;
+  --cu-light-blue:#1E90FF;
+  --cu-royal-blue: #4A42FF;
+  --cu-orange: #E9761E;
+  --cu-yellow: #FFB300;
+  --cu-indigo: #570185;
+  --cu-dark-violet: #D401C5;
+
+  /* Primary color shades */
+  --md-primary-fg-color: var(--cu-red);
+  --md-primary-fg-color--light: #3556b3;
+  --md-primary-fg-color--dark: #142e75;
+
+}
