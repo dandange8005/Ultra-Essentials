@@ -18,5 +18,6 @@ The Ultra in Ultra online course has been developed specifically for Cardiff Uni
 ### Navigation
 
 * [Home](/home.md)
-* [[Ultra base navigation]]
-* 
+* Ultra base navigation
+* Building Your Course
+* Getting Started
