@@ -1,3 +1,4 @@
+# Examples
 This is where I would note down things relate to Material MkDocs
 
 ## Running a local environment

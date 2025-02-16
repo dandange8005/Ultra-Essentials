@@ -1,11 +1,7 @@
 <!-- 
 This is a draft article for the Ultra help pages. It is not yet ready for publication.
  -->
-
- # Import and export groups in Ultra
-
 This resource covers the different aspects needed to successfully import your group sets, groups and students.
-
 
 ## Why import?
 

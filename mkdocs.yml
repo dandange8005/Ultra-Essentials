@@ -1,5 +1,5 @@
-# site informaiotn
-site_name: Ultra Essentials
+# Site Information
+site_name: Digital Education at Cardiff University
 repo_url: https://github.com/dandange8005/ultra-essentials
 repo_name: dandange8005/ultra-essentials
 edit_uri: edit/main/docs/
@@ -10,47 +10,74 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: docs/overrides
   features:
     - navigation.tabs
-    - navigation.sections
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    # - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.path
     - toc.follow
     # - toc.integrate
-    - navigation.top
     - search.suggest
     - search.highlight
+    - search.share
     # - content.tabs.link
-    - contend.code.annotate
+    - content.code.annotate
     - content.code.copy
-    - navigation.footer
     - content.action.edit
     - content.action.view
+    - content.image.zoom
+    - announce.dismiss
 
   palette:
+    # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-      primary: custom
-      accent: indigo  
+      primary: custom #CU branding - red
+      accent: custom  #CU branding - black
 
+    # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-      primary: custom
+      primary: custom #CU branding - red
       accent: indigo
-
+  
+  # main typography
   font:
     text: Inter
     code: Roboto Mono
 
 # Plugins
 plugins:
-  - search
+  - search:
+      lang: 
+        - en
+      separator: '[\s\-\.]+'
+  - i18n:
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: cy
+          name: Cymraeg
+          build: true
+      docs_structure: suffix
+      reconfigure_material: true
+      reconfigure_search: true
   - roamlinks
   - git-revision-date-localized
+
 
 # Additional CSS
 extra_css:
@@ -72,9 +99,10 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.details
   - md_in_html
+  - pymdownx.blocks.caption
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -92,6 +120,13 @@ markdown_extensions:
 
 # Cookies consent
 extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Cymraeg
+      link: /cy/
+      lang: cy
   consent:
     title: Cookie consent
     description: >- 

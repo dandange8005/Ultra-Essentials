@@ -16,9 +16,45 @@
   --cu-indigo: #570185;
   --cu-dark-violet: #D401C5;
 
+  /* gray scales */
+
+  --cu-gray-100: #F2F2F2;
+  --cu-gray-200: #E5E5E5;
+  --cu-gray-300: #CCCCCC;
+  --cu-gray-400: #B3B3B3;
+  --cu-gray-500: #999999;
+  --cu-gray-600: #808080;
+  --cu-gray-700: #666666;
+  --cu-gray-800: #4C4C4C;
+  --cu-gray-900: #333333;
+
+
   /* Primary color shades */
   --md-primary-fg-color: var(--cu-red);
-  --md-primary-fg-color--light: #3556b3;
-  --md-primary-fg-color--dark: #142e75;
+  --md-primary-fg-color--light: #F5A3A0;
+  --md-primary-fg-color--dark: #5B0F0C;
+
+  /* accent color */
+  --md-accent-fg-color: var(--cu-black);
+  /* --md-accent-fg-color--dark: #034494; */
+
 
 }
+
+/* Typography */
+
+/* Headings */
+.md-typeset h1 {
+  color: var(--md-primary-fg-color);
+}
+
+/* side navigation links */
+.md-nav__item .md-nav__link--active {
+  font-weight: bold;
+}
+
+/* links */
+/* .md-typeset a {
+  text-decoration: underline;
+} */
+
