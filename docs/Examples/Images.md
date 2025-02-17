@@ -2,6 +2,8 @@
 
 ## Adding images
 
+![Image title](accommodation status.png)
+
 ### Adding images from the web
 
 ```md

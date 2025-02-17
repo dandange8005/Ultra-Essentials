@@ -1,6 +1,6 @@
 # Learning Central Essentials
 
-![Ultra Essentials video](/assets/images/ultra-video-2023-05-26-1685135284930.png)
+![Ultra Essentials video](ultra-video-2023-05-26-1685135284930.png)
 
 Blackboard Ultra is a modern platform that has the power to transform the student online learning experience. Its responsive interface is designed to function on all devices, including mobile.
 

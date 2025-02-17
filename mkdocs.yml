@@ -12,26 +12,26 @@ theme:
   name: material
   custom_dir: docs/overrides
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.footer
-    # - navigation.sections
-    - navigation.expand
-    - navigation.indexes
-    - navigation.path
-    - toc.follow
-    # - toc.integrate
-    - search.suggest
-    - search.highlight
-    - search.share
-    # - content.tabs.link
-    - content.code.annotate
-    - content.code.copy
-    - content.action.edit
-    - content.action.view
-    - content.image.zoom
-    - announce.dismiss
+    - navigation.tabs # Navigation tabs at the top
+    - navigation.tabs.sticky # Fixed navigation tabs while scrolling
+    - navigation.top # "Back to top" button
+    - navigation.footer # Previous/next page links in footer
+    # - navigation.sections # Sidebar sections (disabled)
+    - navigation.expand # Expand all navigation sections
+    - navigation.indexes # Enable section index pages
+    - navigation.path # Show current page path
+    - toc.follow # Scrolling table of contents
+    # - toc.integrate # Sidebar table of contents (disabled)
+    - search.suggest # Search with suggestions
+    - search.highlight # Highlight search matches
+    - search.share # Share search results
+    # - content.tabs.link # Link content tabs (disabled)
+    - content.code.annotate # Code block annotations
+    - content.code.copy # Copy button for code blocks
+    # - content.action.edit # Edit page button (disabled)
+    # - content.action.view # View page button (disabled)
+    - content.image.zoom # Zoom images
+    - announce.dismiss # Dismiss announcement banner
 
   palette:
     # Light mode
@@ -59,11 +59,11 @@ theme:
 
 # Plugins
 plugins:
-  - search:
+  - search: # Search plugin
       lang: 
         - en
       separator: '[\s\-\.]+'
-  - i18n:
+  - i18n: # Internationalization
       languages:
         - locale: en
           default: true
@@ -75,8 +75,8 @@ plugins:
       docs_structure: suffix
       reconfigure_material: true
       reconfigure_search: true
-  - roamlinks
-  - git-revision-date-localized
+  - roamlinks # Roam Research links
+  - git-revision-date-localized # Git revision date
 
 
 # Additional CSS
@@ -91,32 +91,39 @@ extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
 
 
-# Extensions
 markdown_extensions:
+
+  # Python Markdown
+  - abbr
   - admonition
   - attr_list
+  - def_list
   - footnotes
-  - pymdownx.magiclink
-  - pymdownx.details
   - md_in_html
-  - pymdownx.blocks.caption
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
   - pymdownx.superfences
   - pymdownx.tabbed:
-      alternate_style: true 
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.mark
-  - pymdownx.arithmatex:
-      generic: true
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tilde
 
 # Cookies consent
 extra:
