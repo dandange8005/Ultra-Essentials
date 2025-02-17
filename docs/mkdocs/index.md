@@ -1,9 +1,8 @@
-# Examples
-This is where I would note down things relate to Material MkDocs
+# MKDocs Examples
 
 ## Running a local environment
 
-You don't have to do this but if you would like to run the project in your local environment by using MKdocs, you ware welcome to follow this instruction here to install Python and Material MKdocs. This would allow you to run Material MkDocs and build a site that you can preview the changes locally.
+You don't have to do this but if you would like to run the project in your local environment using MKdocs, you are welcome to follow this instruction to install Python and Material MKdocs. This would allow you to run Material MkDocs and build a site that you can preview the changes locally.
 
 1. Install python3
 2. Install pip3

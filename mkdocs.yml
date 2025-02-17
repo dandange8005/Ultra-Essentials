@@ -10,6 +10,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  logo: assets/images/Cardiff-Logo-Red-Inversed.svg
   custom_dir: docs/overrides
   features:
     - navigation.tabs # Navigation tabs at the top
