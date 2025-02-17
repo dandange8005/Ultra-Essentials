@@ -77,6 +77,10 @@ plugins:
       reconfigure_search: true
   - roamlinks # Roam Research links
   - git-revision-date-localized # Git revision date
+  - mkdocs-video:
+      css_style:
+        width: "100%"
+        aspect-ratio: "16/9"
 
 
 # Additional CSS

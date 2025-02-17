@@ -11,3 +11,11 @@ With that in mind, there are a few objectives I'd like to achieve:
 
 ## Link
 - https://dandange8005.github.io/ultra-essentials/
+
+## Installed plugins
+
+- [mkdocs-video](https://pypi.org/project/mkdocs-video/) - Embed videos directly using standard Markdown syntax.
+- [mkdocs-autolinks-plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) - Automatically link to other pages in your MkDocs documentation.
+- [mkdocs-roamlinks-plugin](https://github.com/Jackiexiao/mkdocs-roamlinks-plugin) - A folk of mkdocs-autolinks-plugin that allows you to link to other pages in your MkDocs documentation.
+- [git-revision-date-localized-plugin](https://pypi.org/project/mkdocs-git-revision-date-localized-plugin/) - A plugin for MkDocs that displays the last modification date of a file in the local timezone.
+- [mkdocs-static-i18n](https://github.com/ultrabug/mkdocs-static-i18n) - Adds static internationalisation support to MkDocs for multilingual sites.

@@ -1,6 +1,6 @@
 # Hanfodion Ultra
 
-![Ultra Essentials video](/assets/images/ultra video-2023-05-26-1685135284930.png)
+![Ultra Essentials video](ultra-video-2023-05-26-1685135284930.png)
 
 Mae Blackboard Ultra yn blatfform modern sydd â'r pŵer i drawsnewid profiad dysgu ar-lein myfyrwyr. Mae ei ryngwyneb ymatebol wedi'i gynllunio i weithredu ar bob dyfais, gan gynnwys symudol.
 
