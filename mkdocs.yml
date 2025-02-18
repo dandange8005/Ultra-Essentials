@@ -96,8 +96,8 @@ extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
 
 
+# Extra Markdown Extensions
 markdown_extensions:
-
   # Python Markdown
   - abbr
   - admonition
@@ -129,6 +129,10 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+# Exclude files
+draft_docs: |
+  drafts/
 
 # Cookies consent
 extra:
