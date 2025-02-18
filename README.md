@@ -12,8 +12,6 @@ With that in mind, there are a few objectives I'd like to achieve:
 ## Link
 - https://dandange8005.github.io/Ultra-Essentials/
 
-- https://dandange8005.github.io/ultra-essentials/
-
 ## Installed plugins
 
 - [mkdocs-video](https://pypi.org/project/mkdocs-video/) - Embed videos directly using standard Markdown syntax.
