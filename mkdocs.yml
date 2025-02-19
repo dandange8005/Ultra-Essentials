@@ -5,6 +5,18 @@ repo_name: dandange8005/ultra-essentials
 edit_uri: edit/main/docs/
 
 # Navigation settings
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Base Navigation: getting-started/base-navigation.md
+    - Navigating inside an Ultra course: getting-started/nav-inside-course.md
+    - Personal Profile: getting-started/personal-profile.md
+    - Course Staff List: getting-started/module-staff.md
+
+  - MKDocs:
+    - Call out: mkdocs/callouts.md
+    - Icons and Emojis: mkdocs/icons-emojis.md
+
 
 # Theme settings
 
@@ -86,7 +98,8 @@ plugins:
 
 # Additional CSS
 extra_css:
- - stylesheets/extra.css
+  - https://unpkg.com/open-props
+  - stylesheets/extra.css
 
 # Extra Javascript
 extra_javascript:
@@ -107,6 +120,9 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+      toc_depth: 2  # This will show only second-level (H2) headings
+
+
 
   # Python Markdown Extensions
   - pymdownx.arithmatex:

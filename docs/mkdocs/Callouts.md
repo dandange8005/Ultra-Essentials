@@ -116,6 +116,11 @@ Example
     !!! tip "Inner Tip"
         Nested tip content
 
+### Custom Callouts with CSS
+
+!!! cu-red "Custom Cardiff Callout"
+    This is a custom callout with a red background.
+
 ## Best Practices
 
 1. **Choose Appropriate Types**: Select the admonition type that best matches your content's purpose

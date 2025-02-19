@@ -1,3 +1,5 @@
+# Navigating inside an Ultra Course
+
 The new, modern user interface allows you to navigate directly to all parts of an Ultra course from the three main areas: Course Content, Top Navigation Menu and Details and Actions. 
 
 All of your course content appears in the main part of the page. When you open a piece of content, it slides out in a layer on top of the Course Content page. Close layers to go back to a previous spot in your course.
