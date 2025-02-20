@@ -16,17 +16,17 @@ To add an image to your documentation, use the standard Markdown syntax:
 2. **Relative Paths**: Use relative paths from your docs directory
 3. **Multiple Formats**: Support for common image formats (PNG, JPG, GIF, SVG)
 
-## Image Organization
+## Image Organisation
 
 ### Recommended Directory Structure
 
 ```
 mkdocs-project/
 ├── docs/
-│   ├── images/
+│   ├── assets/
 │   │   ├── screenshots/
-│   │   ├── diagrams/
-│   │   └── icons/
+│   │   ├── images/
+│   │   └── files/
 │   └── index.md
 └── mkdocs.yml
 ```
@@ -78,25 +78,9 @@ Add captions to your images:
 </figure>
 ```
 
-### Lightbox
-
-Enable image zoom/lightbox functionality in your `mkdocs.yml`:
-
-```yaml
-theme:
-  features:
-    - content.lightbox
-```
-
-Then mark images as clickable:
-
-```markdown
-![Image Title](image.png){: .lightbox}
-```
-
 ## Best Practices
 
-1. **Optimize Images**
+1. **Optimise Images**
     - Compress images before adding to documentation
     - Use appropriate file formats (PNG for screenshots, JPG for photos)
     - Consider using SVG for diagrams and icons
@@ -110,40 +94,7 @@ Then mark images as clickable:
     ![Dashboard](dashboard.png)
     ```
 
-3. **Responsive Images**
-    ```markdown
-    ![Responsive Image](image.png){: style="max-width:100%"}
-    ```
-
-4. **Image Links**
-    ```markdown
-    [![Clickable Image](thumbnail.png)](full-size.png)
-    ```
-
 ## Advanced Configuration
-
-### Custom CSS for Images
-
-Add to your `docs/stylesheets/extra.css`:
-
-```css
-img {
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.center {
-    display: block;
-    margin: 0 auto;
-}
-```
-
-Enable in `mkdocs.yml`:
-
-```yaml
-extra_css:
-    - stylesheets/extra.css
-```
 
 ### Image Gallery Example
 
@@ -203,18 +154,18 @@ Create an image gallery using CSS Grid:
 ## Tips for Documentation Authors
 
 1. **Image Naming**
-   - Use descriptive, kebab-case names: `user-dashboard-overview.png`
-   - Include dimensions if relevant: `hero-banner-1200x600.png`
+      * Use descriptive, kebab-case names: `user-dashboard-overview.png`
+      * Include dimensions if relevant: `hero-banner-1200x600.png`
 
-2. **Version Control**
-   - Consider using Git LFS for large images
-   - Keep image sizes reasonable (< 500KB per image)
-   - Document image dimensions in a separate README
+2. **Version Control** 
+      * Consider using Git LFS for large images
+      * Keep image sizes reasonable (< 500KB per image)
+      * Document image dimensions in a separate README
 
 3. **Accessibility**
-   - Always include meaningful alt text
-   - Provide text alternatives for complex diagrams
-   - Consider color-blind users when creating charts
+      * Always include meaningful alt text
+      * Provide text alternatives for complex diagrams
+      * Consider color-blind users when creating charts
 
 For more advanced features and detailed documentation, visit the [MkDocs Material Images Reference](https://squidfunk.github.io/mkdocs-material/reference/images/).
 

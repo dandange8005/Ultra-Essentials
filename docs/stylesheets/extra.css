@@ -59,8 +59,10 @@
 } */
 
 /* Custom "cu-red" admonition using cu-red */
+
+
 :root {
-  --md-admonition-icon--important: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 19c.946 0 1.81-.103 2.598-.281l-1.757-1.757c-.273.021-.55.038-.841.038-5.351 0-7.424-3.846-7.926-5a8.642 8.642 0 0 1 1.508-2.297L4.184 8.305c-1.538 1.667-2.121 3.346-2.132 3.379a.994.994 0 0 0 0 .633C2.073 12.383 4.367 19 12 19zm0-14c-1.837 0-3.346.396-4.604.981L3.707 2.293 2.293 3.707l18 18 1.414-1.414-3.319-3.319c2.614-1.951 3.547-4.615 3.561-4.657a.994.994 0 0 0 0-.633C21.927 11.617 19.633 5 12 5zm4.972 10.558-2.28-2.28c.19-.39.308-.819.308-1.278 0-1.641-1.359-3-3-3-.459 0-.888.118-1.277.309L8.915 7.501A9.26 9.26 0 0 1 12 7c5.351 0 7.424 3.846 7.926 5-.302.692-1.166 2.342-2.954 3.558z"/></svg>')
+  --md-admonition-icon--important: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>wheelchair-accessibility</title><path d="M18.4,11.2L14.3,11.4L16.6,8.8C16.8,8.5 16.9,8 16.8,7.5C16.7,7.2 16.6,6.9 16.3,6.7L10.9,3.5C10.5,3.2 9.9,3.3 9.5,3.6L6.8,6.1C6.3,6.6 6.2,7.3 6.7,7.8C7.1,8.3 7.9,8.3 8.4,7.9L10.4,6.1L12.3,7.2L8.1,11.5C8,11.6 8,11.7 7.9,11.7C7.4,11.9 6.9,12.1 6.5,12.4L8,13.9C8.5,13.7 9,13.5 9.5,13.5C11.4,13.5 13,15.1 13,17C13,17.6 12.9,18.1 12.6,18.5L14.1,20C14.7,19.1 15,18.1 15,17C15,15.8 14.6,14.6 13.9,13.7L17.2,13.4L17,18.2C16.9,18.9 17.4,19.4 18.1,19.5H18.2C18.8,19.5 19.3,19 19.4,18.4L19.6,12.5C19.6,12.2 19.5,11.8 19.3,11.6C19,11.3 18.7,11.2 18.4,11.2M18,5.5A2,2 0 0,0 20,3.5A2,2 0 0,0 18,1.5A2,2 0 0,0 16,3.5A2,2 0 0,0 18,5.5M12.5,21.6C11.6,22.2 10.6,22.5 9.5,22.5C6.5,22.5 4,20 4,17C4,15.9 4.3,14.9 4.9,14L6.4,15.5C6.2,16 6,16.5 6,17C6,18.9 7.6,20.5 9.5,20.5C10.1,20.5 10.6,20.4 11,20.1L12.5,21.6Z" /></svg>')
 }
 
 .md-typeset .admonition.cu-red,
@@ -121,4 +123,109 @@
 
 .rounded-2xl {
   border-radius: var(--radius-6);
+}
+
+/* 9-Column Flexbox Layout System */
+
+/* // Flex container */
+.flex-container {
+    --gap: 1rem;
+    display: flex;
+    gap: var(--gap);
+    flex-wrap: wrap;
+}
+
+/* Flex Utility classes */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-col-reverse {
+    flex-direction: column-reverse;
+}
+
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
+
+/* // Flex items */
+.flex-item {
+    flex: 1 1 0;
+    /* padding: 1rem; */
+}
+
+/* Remove top margin from first child of flex columns */
+.flex-item > *:first-child {
+  margin-top: 0;
+}
+
+/* Use .flex-1 to allow a flex item to grow and shrink as needed, ignoring its initial size
+.flex-1 {
+    flex: 1 1 0%;
+} */
+
+/* // .flex-initial to allow a flex item to shrink but not grow, taking into account its initial size  */
+.flex-initial {
+    flex: 0 1 auto;
+}
+
+/* // Use .flex-auto to allow a flex item to grow and shrink, taking into account its initial size */
+.flex-auto {
+    flex: 1 1 auto;
+}
+
+/* // Use .flex-none to prevent a flex item from growing or shrinking */
+.flex-none {
+    flex: none;
+}
+
+/* // Flex item with base set to differnet width */
+.flex-100 {
+    flex: 1 1 100px;
+}
+
+.flex-200 {
+    flex: 1 1 200px;
+}
+
+.flex-300 {
+    flex: 1 1 300px;
+}
+
+.flex-400 {
+    flex: 1 1 400px;
+}
+
+.flex-500 {
+    flex: 1 1 500px;
+}
+
+.flex-600 {
+    flex: 1 1 600px;
+}
+
+/* Cards */
+
+.card {
+  padding: var(--size-4);
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-2);
+  border: 1px solid var(--cu-gray-100);
+}
+
+.card > *:first-child {
+  margin-top: 0;
 }

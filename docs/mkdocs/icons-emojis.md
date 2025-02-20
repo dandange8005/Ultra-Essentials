@@ -13,6 +13,14 @@ This guide shows you how to add emojis and icons to your MkDocs documentation. W
 :warning: Be careful!
 :bulb: Pro tip
 ```
+Examples:
+
+- :smile: Hello!
+- :heart: Thanks!
+- :rocket: Let's go!
+- :warning: Be careful!
+- :bulb: Pro tip
+
 
 ### Material Icons
 ```markdown
@@ -22,6 +30,13 @@ This guide shows you how to add emojis and icons to your MkDocs documentation. W
 :material-check: Completed
 :material-alert: Warning
 ```
+
+Examples:
+
+- :material-account: User profile
+- :material-github: GitHub repository
+- :material-check: Completed
+- :material-alert: Warning
 
 ## Step-by-Step Guide
 

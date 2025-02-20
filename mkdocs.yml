@@ -13,9 +13,17 @@ nav:
     - Personal Profile: getting-started/personal-profile.md
     - Course Staff List: getting-started/module-staff.md
 
-  - MKDocs:
+  - MKDocs: 
+    - mkdocs/index.md
+    - Basic Markdown: mkdocs/basic-markdown.md
+    - Buttons: mkdocs/buttons.md
     - Call out: mkdocs/callouts.md
+    - Grids: mkdocs/grids.md
     - Icons and Emojis: mkdocs/icons-emojis.md
+    - Images: mkdocs/images.md
+    - Multimedia: mkdocs/multimedia-embedding.md
+    - Tabs: mkdocs/tabs.md
+    - Tasks List: mkdocs/tasks-list.md
 
 
 # Theme settings
@@ -98,8 +106,8 @@ plugins:
 
 # Additional CSS
 extra_css:
-  - https://unpkg.com/open-props
-  - stylesheets/extra.css
+  - https://unpkg.com/open-props # OpenProps
+  - stylesheets/extra.css # Custom CSS
 
 # Extra Javascript
 extra_javascript:
@@ -112,15 +120,15 @@ extra_javascript:
 # Extra Markdown Extensions
 markdown_extensions:
   # Python Markdown
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
+  - abbr # Abbreviations
+  - admonition # Admonitions
+  - attr_list # Attribute lists
+  - def_list # Definition lists
+  - footnotes # Footnotes
+  - md_in_html # Markdown in HTML
   - toc:
       permalink: true
-      toc_depth: 2  # This will show only second-level (H2) headings
+      toc_depth: 3  # This will show up to third-level (H3) headings
 
 
 

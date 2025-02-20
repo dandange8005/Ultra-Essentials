@@ -12,6 +12,12 @@ To add an admonition to your documentation, use the following syntax:
     Make sure to indent the content.
 ```
 
+Example
+
+!!! type "Optional Title"
+    Content of your admonition goes here. 
+    Make sure to indent the content.
+
 ### Key Features
 
 1. **Custom Titles**: You can customize the title or leave it empty to use the type's default title
@@ -118,7 +124,7 @@ Example
 
 ### Custom Callouts with CSS
 
-!!! cu-red "Custom Cardiff Callout"
+!!! cu-red "Accessibility Note"
     This is a custom callout with a red background.
 
 ## Best Practices
