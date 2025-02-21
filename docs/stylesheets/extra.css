@@ -220,12 +220,34 @@
 /* Cards */
 
 .card {
-  padding: var(--size-4);
+  padding: var(--size-3);
   border-radius: var(--radius-2);
   box-shadow: var(--shadow-2);
   border: 1px solid var(--cu-gray-100);
+  background: var(--cu-gray-100);
 }
 
 .card > *:first-child {
   margin-top: 0;
+}
+
+.card > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Dark mode styles */
+[data-md-color-scheme="slate"] .card {
+  border-color: var(--cu-gray-800);
+  background-color: var(--cu-gray-900);
+}
+
+[data-md-color-scheme="slate"] .card:hover {
+  box-shadow: var(--shadow-4);
+}
+
+/* Container query for responsive sizing */
+@container (width < 40rem) {
+  .card {
+    padding: var(--size-2);
+  }
 }
