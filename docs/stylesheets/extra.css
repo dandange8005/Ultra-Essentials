@@ -99,6 +99,16 @@
           mask-image: var(--md-admonition-icon--important);
 }
 
+/* -------------
+  Utility Classes
+---------------- */
+
+/* Text utility classes */
+
+.text-center {
+  text-align: center;
+}
+
 /* Shadow utility classes */
 .shadow-sm {
   box-shadow: var(--shadow-1);
@@ -267,3 +277,47 @@
     padding: var(--size-2);
   }
 }
+
+
+/* Buttons */
+
+/* Disabled button style */
+.md-button--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+/* Custom button color */
+.md-button.custom {
+  background-color: #7c3aed;
+  border-color: #7c3aed;
+  color: #ffffff;
+}
+
+/* Hover state */
+.md-button.custom:hover {
+  background-color: #6d28d9;
+  border-color: #6d28d9;
+}
+
+/* Secondary button style */
+.md-button--secondary {
+  background-color: var(--cu-black);
+  border-color: var(--cu-black);
+  color: #ffffff;
+}
+
+/* Hover state */
+.md-button--secondary:hover {
+  background-color: transparent;
+  border-color: var(--cu-black);
+  color: var(--cu-black);
+}
+
+/* Focus state */
+.md-button--secondary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #1212121a;
+}
+

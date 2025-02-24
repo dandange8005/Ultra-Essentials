@@ -1,181 +1,204 @@
-# Creating Grids layout in MkDocs
+# Grid Layouts in MkDocs Material
 
-## Default Grid Layout
+## Basic Grid Cards
+
+The basic grid layout requires:
+1. A container div with `grid cards` classes
+2. Markdown enabled using the `markdown` attribute
+3. List items as card content
+
+```markdown
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Title Here__
+
+    ---
+
+    Card content goes here with regular markdown
+
+    [:octicons-arrow-right-24: Call to Action](#)
+
+</div>
+```
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+-   :material-clock-fast:{ .lg .middle } __Title Here__
 
     ---
 
-    Install [`mkdocs-material`](#) with [`pip`](#) and get up
-    and running in minutes
+    Card content goes here with regular markdown
 
-    [:octicons-arrow-right-24: Getting started](#)
+    [:octicons-arrow-right-24: Call to Action](#)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+</div>
 
-    ---
+### Breaking Down the Elements
 
-    Focus on your content and generate a responsive and searchable static site
+- `.grid`: Creates the grid container
+- `.cards`: Applies card styling
+- `markdown`: Enables markdown processing inside the div
+- `:material-icon:{ .lg .middle }`: Icon with classes for size and alignment
+- `---`: Creates a divider line
+- `__Text__`: Creates bold text for titles
+- `[:octicons-arrow-right-24: Text](#)`: Creates a link with an icon
 
-    [:octicons-arrow-right-24: Reference](#)
+## Layout Variants
 
--   :material-format-font:{ .lg .middle } __Made to measure__
+### Two-Column Grid
 
-    ---
+```markdown
+<div class="grid cards" markdown>
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+-   :material-clock-fast:{ .lg .middle } __Column 1__
 
-    [:octicons-arrow-right-24: Customization](#)
+    Content for first column
 
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+-   :material-clock-fast:{ .lg .middle } __Column 2__
 
-    ---
+    Content for second column
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
+</div>
+```
+<div class="grid cards" markdown>
 
-    [:octicons-arrow-right-24: License](#)
+-   :material-clock-fast:{ .lg .middle } __Column 1__
+
+    Content for first column
+
+-   :material-clock-fast:{ .lg .middle } __Column 2__
+
+    Content for second column
 
 </div>
 
 
-## Method 1
-<div class="card-grid" markdown>
-<div class="card" markdown>
-### Feature 1
-Feature description
+### Three-Column Grid with Cards and No Dividers
 
-[Learn More](feature1.md){ .card-button }
+```markdown
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg } __Card 1__
+    
+    First card content
+
+-   :material-clock-fast:{ .lg } __Card 2__
+    
+    Second card content
+
+-   :material-clock-fast:{ .lg } __Card 3__
+    
+    Third card content
+
+</div>
+```
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg } __Card 1__
+    
+    First card content
+
+-   :material-clock-fast:{ .lg } __Card 2__
+    
+    Second card content
+
+-   :material-clock-fast:{ .lg } __Card 3__
+    
+    Third card content
+
 </div>
 
-<div class="card" markdown>
-### Feature 2
-Feature description
 
-[Learn More](feature2.md){ .card-button }
+### Grid with Images
+
+```markdown
+<div class="grid cards" markdown>
+
+-   ![Image 1](path/to/image.png)
+
+    __Image Card 1__
+    
+    Description for image 1
+
+-   ![Image 2](path/to/image.png)
+
+    __Image Card 2__
+    
+    Description for image 2
+
+</div>
+```
+<div class="grid cards" markdown>
+
+-   ![Image 1](https://picsum.photos/600/400)
+
+    __Image Card 1__
+    
+    Description for image 1
+
+-   ![Image 2](https://picsum.photos/600/400)
+
+    __Image Card 2__
+    
+    Description for image 2
+
 </div>
 
-<div class="card" markdown>
-### Feature 3
-Feature description
 
-[Learn More](feature3.md){ .card-button }
-</div>
-</div>
+## Card Modifiers
 
-<style>
-.card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-}
+### Icon Classes
+- `.lg`: Large icon
+- `.middle`: Vertically centers the icon
+- `.inline`: Places icon inline with text
 
-.card {
-    background: #f8f9fa;
+### Grid Classes
+- `.cards`: Adds card styling with shadows and hover effects
+- `.grid-no-gap`: Removes gap between grid items
+- `.grid-stretch`: Makes all cards same height
+
+## Custom Styling
+
+You can add custom CSS to modify the grid layout:
+
+```css
+/* Customize card appearance */
+.grid.cards > ul > li {
     border-radius: 4px;
-    padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    display: flex;
-    flex-direction: column;
+    box-shadow: var(--md-shadow-z1);
 }
 
-.card-button {
-    display: inline-block;
-    margin-top: auto;
-    padding: 0.5rem 1rem;
-    background-color: var(--md-primary-fg-color);
-    color: white!important;
-    text-decoration: none;
-    border-radius: 4px;
-    text-align: center;
-    transition: background-color 0.2s;
+/* Customize card hover state */
+.grid.cards > ul > li:hover {
+    box-shadow: var(--md-shadow-z2);
 }
 
-.card-button:hover {
-    background-color: var(--md-primary-fg-color--dark);
+/* Customize grid columns */
+.grid > ul {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
+```
 
-.card-button:focus {
-    outline: 2px solid var(--md-primary-fg-color);
-    outline-offset: 2px;
-}
-</style>
+## Best Practices
 
-## Method 2
+1. Always include the `markdown` attribute when using markdown inside the grid
+2. Use appropriate icon sizes (.lg for large, default for normal)
+3. Keep content concise for better visual balance
+4. Use consistent icon styles within the same grid
+5. Include meaningful call-to-action links when needed
+6. Test responsiveness on different screen sizes
 
-Grid Layouts in MkDocs Material
-[Previous content remains the same until the Feature Grid section, which is updated below...]
-Feature Grid with Clickable Items
-For highlighting features with icons that link to other pages:
-htmlCopy<div class="feature-grid" markdown>
+## Common Icons
 
-<div class="feature-item" markdown>
-:material-rocket: 
+Material for MkDocs supports multiple icon sets:
+- `:material-`: Material Design icons
+- `:fontawesome-`: Font Awesome icons
+- `:octicons-`: GitHub's Octicons
+- `:simple-`: Simple Icons
 
-### Fast
-
-Quick setup and deployment
-
-<a href="getting-started.md" class="overlay-link"></a>
-</div>
-
-<div class="feature-item" markdown>
-:material-shield:
-
-### Secure
-
-Enterprise-grade security
-
-<a href="security.md" class="overlay-link"></a>
-</div>
-
-<div class="feature-item" markdown>
-:material-cog:
-
-### Customizable
-
-Flexible configuration
-
-<a href="configuration.md" class="overlay-link"></a>
-</div>
-
-</div>
-
-<style>
-.feature-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    padding: 2rem;
-}
-
-.feature-item {
-    display: block;
-    text-align: center;
-    padding: 1.5rem;
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
-    text-decoration: none;
-    color: inherit;
-}
-
-.feature-item:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-}
-
-.feature-item .material-icons {
-    font-size: 2.5rem;
-    color: var(--md-primary-fg-color);
-}
-
-/* Optional: Add focus styles for accessibility */
-.feature-item:focus {
-    outline: 2px solid var(--md-primary-fg-color);
-    outline-offset: 2px;
-}
-</style>
+Example icon usage:
+```markdown
+- :material-check-circle:{ .lg .middle }
+- :fontawesome-regular-paper-plane:{ .lg }
+- :octicons-repo-24:{ .middle }
+```

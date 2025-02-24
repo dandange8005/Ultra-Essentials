@@ -2,9 +2,9 @@
 tags: MKDocs, tabs
 ---
 
-This is a quick guide on how to create tabs in your document
+Tabs in allow you to organise content into switchable sections, making your documentation more organised and easier to navigate. 
 
-## Content Tabs in action
+## Basic Usage
 
 ```md
 === "Unordered list"
@@ -18,8 +18,6 @@ This is a quick guide on how to create tabs in your document
     3. Nulla tempor lobortis orci
 ```
 
-### Example
-
 === "Unordered list"
 	* Sed sagittis eleifend rutrum
     * Donec vitae suscipit est
@@ -30,4 +28,26 @@ This is a quick guide on how to create tabs in your document
     2. Donec vitae suscipit est
     3. Nulla tempor lobortis orci
 
+## Tabs with Icons
 
+Add icons to your tabs using Material Icons or FontAwesome:
+
+```md
+=== ":material-microsoft: Windows"
+    Windows-specific instructions...
+
+=== ":material-apple: iOS"
+    iOS-specific instructions...
+
+=== ":octicons-browser-16: Web"
+    Web platform instructions...
+```
+
+=== ":material-microsoft: Windows"
+    Windows-specific instructions...
+
+=== ":material-apple: iOS"
+    iOS-specific instructions...
+
+=== ":octicons-browser-16: Web"
+    Web platform instructions...
