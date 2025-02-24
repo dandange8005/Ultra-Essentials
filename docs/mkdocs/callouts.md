@@ -135,20 +135,6 @@ Example
 4. **Don't Overuse**: Too many admonitions can overwhelm readers and reduce their effectiveness
 5. **Indent Properly**: Always indent the content inside admonitions with 4 spaces or a tab
 
-## Customization
-
-You can customize the appearance of admonitions in your `mkdocs.yml`:
-
-```yaml
-theme:
-  features:
-    - admonition
-  palette:
-    scheme: default
-    primary: indigo
-    accent: indigo
-```
-
 ## Available Admonition Types
 
 - `note`
