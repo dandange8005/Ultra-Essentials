@@ -1,3 +1,8 @@
+---
+status: new
+# subtitle: Admonitions in MkDocs Material
+---
+
 # Admonitions in MkDocs Material
 
 Admonitions are attention-grabbing content blocks that help highlight important information in your documentation. They're perfect for warnings, notes, tips, and other types of callouts that should stand out from the regular content.
@@ -123,6 +128,11 @@ Example
         Nested tip content
 
 ### Custom Callouts with CSS
+
+```md
+!!! cu-red "Accessibility Note"
+    This is a custom callout with a red background.
+```
 
 !!! cu-red "Accessibility Note"
     This is a custom callout with a red background.

@@ -1,8 +1,20 @@
-# Site Information
+# Project information
 site_name: Digital Education at Cardiff University
-repo_url: https://github.com/dandange8005/ultra-essentials
-repo_name: dandange8005/ultra-essentials
+# site_url:
+# site_author:
+# site_description: >-
+#   This is a documentation site for the Digital Education team at Cardiff
+#   University. Here you will find information on how to use the Learning Central, as well as general information on how to use various Digital Education tools we support.
+# site_keywords: Cardiff University, Digital Education, Learning Central, Blackboard, Turnitin, Panopto, Ultra, Essentials, Guides, Tutorials, Help, Support, Information, Documentation
+# site_favicon: assets/images/favicon.ico
 edit_uri: edit/main/docs/
+
+# Repository
+repo_name: dandange8005/ultra-Essentials
+repo_url: https://github.com/dandange8005/Ultra-Essentials
+
+# Copyright
+# copyright: © 2021 Cardiff University
 
 # Navigation settings
 nav:
@@ -52,6 +64,7 @@ theme:
     # - content.action.edit # Edit page button (disabled)
     # - content.action.view # View page button (disabled)
     - content.image.zoom # Zoom images
+    - content.tooltips # Tooltips for links
     - announce.dismiss # Dismiss announcement banner
 
   palette:
@@ -129,9 +142,6 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3  # This will show up to third-level (H3) headings
-
-
-
   # Python Markdown Extensions
   - pymdownx.arithmatex:
       generic: true
@@ -153,13 +163,16 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.snippets
 
 # Exclude files
 draft_docs: |
   drafts/
 
-# Cookies consent
+# Additional configuration
 extra:
+  status: 
+    new: Recently added
   alternate:
     - name: English
       link: /
