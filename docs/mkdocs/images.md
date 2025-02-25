@@ -7,8 +7,9 @@ Images are essential for creating engaging and informative documentation. MkDocs
 To add an image to your documentation, use the standard Markdown syntax:
 
 ```markdown
-![Alt text](path/to/image.png)
+![Alt text](https://unsplash.it/500/300?random)
 ```
+![Alt text](https://unsplash.it/500/300?random)
 
 ### Key Features
 
@@ -33,141 +34,109 @@ mkdocs-project/
 
 ### Path References
 
-```markdown
-# Absolute path from docs directory
-![Logo](/images/logo.png)
+#### Direct name reference
+```md
+![Alt text](accommodation-status.png)
+```
+![Alt text](accommodation-status.png)
 
-# Relative path from current file
-![Screenshot](../images/screenshots/feature.png)
+#### Relative path reference
+```md
+![Alt text](../assets/images/Cardiff-Logo-Red-Inversed.svg)
+```
+![Alt text](../assets/images/Cardiff-Logo-Red-Inversed.svg)
+
+#### Direct path reference
+```md
+![Alt text](/assets/images/Cardiff-Logo-Red-Inversed.svg)
+```
+![Alt text](/assets/images/Cardiff-Logo-Red-Inversed.svg)
+
+#### URL reference
+```md
+![Alt text](https://unsplash.it/500/300?random)
+```
+![Alt text](https://unsplash.it/500/300?random)
+
+## Image Sizing
+
+Control image dimensions using attributes:
+
+```md
+![Small Image](image.png){ width=300 }
+
+![Half-width Image](image.png){ width=50% }
+
+![Custom Size](image.png){ width=200 height=100 }
 ```
 
-## Advanced Features
-
-### Image Alignment
+## Image Alignment
 
 Use HTML attributes to align images:
 
 ```markdown
-![Centered Image](image.png){: .center}
 
-![Right-aligned Image](image.png){: align=right}
+![Right-aligned Image](image.png){align=right}
 
-![Left-aligned Image](image.png){: align=left}
+![Left-aligned Image](image.png){align=left}
 ```
 
-### Image Sizing
+![Right-aligned Image](https://unsplash.it/200/200){align=right}
 
-Control image dimensions using attributes:
+Right-aligned Image:
 
-```markdown
-![Small Image](image.png){: style="width:200px"}
+<br clear="all" />
 
-![Half-width Image](image.png){: style="width:50%"}
 
-![Custom Size](image.png){: width="300" height="200"}
-```
+![Left-aligned Image](https://unsplash.it/200/200){align=left}
+
+Left-aligned Image:
+
+<br clear="all" />
+
 
 ### Image Captions
 
 Add captions to your images:
 
 ```markdown
-<figure>
-    ![Screenshot](image.png)
-    <figcaption>Figure 1: Description of the image</figcaption>
+<figure markdown="span">
+  ![Image title](https://dummyimage.com/600x400/){ width="300" }
+  <figcaption>Image caption</figcaption>
 </figure>
 ```
+<figure markdown="span">
+    ![image](https://unsplash.it/700/400)
+    <figcaption>Figure 1: Description of the image</figcaption>
+</figure>
+
 
 ## Best Practices
 
-1. **Optimise Images**
+1. **Image Naming**
+    - Use descriptive names: `dashboard-screenshot.png`
+    - Avoid special characters and spaces
+    - Use lowercase and kebab-case
+2. **Optimise Images**
     - Compress images before adding to documentation
     - Use appropriate file formats (PNG for screenshots, JPG for photos)
     - Consider using SVG for diagrams and icons
-
-2. **Descriptive Alt Text**
-    ```markdown
-    # Good
-    ![Dashboard showing user statistics and active sessions](dashboard.png)
-
-    # Bad
-    ![Dashboard](dashboard.png)
-    ```
-
-## Advanced Configuration
-
-### Image Gallery Example
-
-Create an image gallery using CSS Grid:
-
-```markdown
-<div class="image-grid">
-    ![Image 1](img1.png)
-    ![Image 2](img2.png)
-    ![Image 3](img3.png)
-</div>
-```
-
-```css
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-}
-```
-
-## Common Issues and Solutions
-
-### Broken Images
-
-```markdown
-# Check if path is correct
-![Image](./path/to/image.png)
-
-# Use forward slashes, even on Windows
-![Image](images/screenshot.png)
-```
-
-### Large Images
-
-```markdown
-# Resize large images
-![Large Image](big-image.png){: style="width:800px;max-width:100%"}
-
-# Use HTML for more control
-<img src="big-image.png" alt="Large Image" style="width:100%;max-width:800px">
-```
-
-### SVG Handling
-
-```markdown
-# Inline SVG
-<svg width="100" height="100">
-    <!-- SVG content -->
-</svg>
-
-# SVG as image
-![SVG Image](diagram.svg){: style="background:white"}
-```
-
-## Tips for Documentation Authors
-
-1. **Image Naming**
-      * Use descriptive, kebab-case names: `user-dashboard-overview.png`
-      * Include dimensions if relevant: `hero-banner-1200x600.png`
-
-2. **Version Control** 
-      * Consider using Git LFS for large images
-      * Keep image sizes reasonable (< 500KB per image)
-      * Document image dimensions in a separate README
-
 3. **Accessibility**
-      * Always include meaningful alt text
-      * Provide text alternatives for complex diagrams
-      * Consider color-blind users when creating charts
+   
+      - Always include meaningful alt text
+           ```markdown
+           # Good
+           ![Dashboard showing user statistics and active sessions](dashboard.png)
 
-For more advanced features and detailed documentation, visit the [MkDocs Material Images Reference](https://squidfunk.github.io/mkdocs-material/reference/images/).
+           # Bad
+           ![Dashboard](dashboard.png)
+           ```
+      - Provide text alternatives for complex diagrams
+      - Consider color-blind users when creating charts
+      - Keep image sizes reasonable (< 500KB per image)
+
+
+For more advanced features and detailed documentation, visit the [MkDocs Material Images Reference](https://squidfunk.github.io/mkdocs-material/reference/images/){.external-link}.
 
 
 

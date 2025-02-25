@@ -2,9 +2,8 @@ This page includes all the basic markdown syntax to get started with creating a 
 
 More about markdown syntax can be found [here](https://www.markdownguide.org/basic-syntax/) or you can use the [markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/) or GitHub's [mastering markdown](https://guides.github.com/features/mastering-markdown/)
 
-## Basic syntax
 
-### Paragraphs
+## Paragraphs
 
 ```md
 This is a paragraph.
@@ -12,7 +11,7 @@ This is a paragraph.
 
 This is a paragraph.
 
-### Headings
+## Headings
 
 ```md
 # Heading 1
@@ -30,15 +29,15 @@ This is a paragraph.
 
 #### Heading 4
 
-### Links
+## Links
 
 External links
 
 ```md
-[Google.com](https://www.google.com/)
+[Google.com](https://www.google.com/){.external-link}
 ```
 
-[Google.com](https://www.google.com/)
+[Google.com](https://www.google.com/){.external-link}
 
 Internal links
 
@@ -50,7 +49,7 @@ Internal links
 
 [[Callouts]]
 
-### Images
+## Images
 
 Basic markdown syntax
 
@@ -62,3 +61,59 @@ Basic markdown syntax
 Images uploaded using external link
 
 ![alt text for the image](https://images.unsplash.com/photo-1739992115892-36453a241b5e?q=80&w=2512&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+## Lists
+
+Unordered list
+
+```md
+- Item 1
+- Item 2
+- Item 3
+```
+
+- Item 1
+- Item 2
+- Item 3
+
+Ordered list
+
+```md
+1. Item 1
+2. Item 2
+3. Item 3
+```
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+## Blockquotes
+
+```md
+> This is a blockquote
+```
+
+> This is a blockquote
+
+## Tables
+
+```md
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Row 1    | Row 1    | Row 1    |
+| Row 2    | Row 2    | Row 2    |
+| Row 3    | Row 3    | Row 3    |
+```
+
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Row 1    | Row 1    | Row 1    |
+| Row 2    | Row 2    | Row 2    |
+| Row 3    | Row 3    | Row 3    |
+
+??? example "Dos and Don'ts Example"
+
+    | ✅ Do's | ❌ Don'ts |
+    | ------- | -------- |
+    | - item 1<br>- item 2<br>- item 3  | - don't item 1<br>- don't item 2<br>- don't item 3  |
