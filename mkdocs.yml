@@ -25,6 +25,10 @@ nav:
     - Personal Profile: getting-started/personal-profile.md
     - Course Staff List: getting-started/module-staff.md
 
+  - Building Your Course:
+    - Learning Modules and Folders: building-course/learning-modules-folders.md
+
+
   - MKDocs: 
     - mkdocs/index.md
     - Basic Markdown: mkdocs/basic-markdown.md

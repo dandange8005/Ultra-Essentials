@@ -1,3 +1,5 @@
+# Planning Your Content - Learning Modules and Folders
+
 The main structure of an Ultra course is in the **Content area**, organised within **Learning Modules** and **Folders**.
 
 - **Learning Modules** are a special type of folder designed for collections of learning materials and activities. Students navigate sequentially through a linear structure, almost like an e-book, enhancing the 'flow' of reading and learning. 
