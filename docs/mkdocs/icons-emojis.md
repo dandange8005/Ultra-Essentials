@@ -51,6 +51,7 @@ Great job! :tada:
 ```
 
 Common emoji shortcodes:
+
 - `:smile:` 😊
 - `:heart:` ❤️
 - `:thumbsup:` 👍
@@ -67,10 +68,17 @@ Material icons can be added using the `:material-[icon-name]:` syntax:
 :material-help: Help Center
 ```
 
+Common Material icons:
+
+- `:material-account:` Account
+- `:material-cog:` Settings
+- `:material-help:` Help
+- `:material-lightbulb:` Lightbulb
+
 ### 3. Finding Icons
 
 !!! tip "Pro Tip"
-    Material for MkDocs offers a handy [icon search tool](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search) in their documentation where you can search across all available icon sets and see the exact syntax to use them.
+    Material for MkDocs offers a handy [icon search tool](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search){.external-link} in their documentation where you can search across all available icon sets and see the exact syntax to use them.
 
 To find the right icon:
 
