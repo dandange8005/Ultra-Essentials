@@ -131,16 +131,16 @@ nav:
 ## Tips and Tricks
 
 1. **Preview Your Icons**
-   - Use the MkDocs live preview (`mkdocs serve`) to check how icons look
-   - Test different sizes and combinations
+      - Use the MkDocs live preview (`mkdocs serve`) to check how icons look
+      - Test different sizes and combinations
 
 2. **Versioning**
-   - Check icon availability in your Material for MkDocs version
-   - Keep your documentation dependencies updated
+      - Check icon availability in your Material for MkDocs version
+      - Keep your documentation dependencies updated
 
 3. **Custom Icons**
-   - You can also use FontAwesome icons with `:fontawesome-` prefix
-   - Octicons are available with `:octicons-` prefix
+      - You can also use FontAwesome icons with `:fontawesome-` prefix
+      - Octicons are available with `:octicons-` prefix
 
 Need more icons? Check out:
 - [Material Design Icons](https://pictogrammers.com/library/mdi/)
