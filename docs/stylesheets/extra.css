@@ -77,7 +77,7 @@
 
 /* -------- Lists ------------ */
 
-/* custom checklist icon colour */
+/* Custom task list icon colour */
 .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
   background-color: var(--md-primary-fg-color);
 
