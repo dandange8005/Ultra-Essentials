@@ -41,6 +41,8 @@ An expeiemental project to convert the [Ultra Essentials](https://xerte.cardiff.
 
 ## Installed plugins
 
+A list of installed plugins allows us to extend the functionality of this project.
+
 - [mkdocs-video](https://pypi.org/project/mkdocs-video/) - Embed videos directly using standard Markdown syntax.
 - [mkdocs-autolinks-plugin](https://github.com/zachhannum/mkdocs-autolinks-plugin) - Automatically link to other pages in your MkDocs documentation.
 - [mkdocs-roamlinks-plugin](https://github.com/Jackiexiao/mkdocs-roamlinks-plugin) - A folk of mkdocs-autolinks-plugin that allows you to link to other pages in your MkDocs documentation.
