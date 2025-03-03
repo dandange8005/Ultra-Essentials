@@ -33,7 +33,7 @@ The basic grid layout requires:
 
 </div>
 
-### Breaking Down the Elements
+<!-- ### Breaking Down the Elements
 
 - `.grid`: Creates the grid container
 - `.cards`: Applies card styling
@@ -41,7 +41,7 @@ The basic grid layout requires:
 - `:material-icon:{ .lg .middle }`: Icon with classes for size and alignment
 - `---`: Creates a divider line
 - `__Text__`: Creates bold text for titles
-- `[:octicons-arrow-right-24: Text](#)`: Creates a link with an icon
+- `[:octicons-arrow-right-24: Text](#)`: Creates a link with an icon -->
 
 ## Layout Variants
 
@@ -114,13 +114,13 @@ The basic grid layout requires:
 ```markdown
 <div class="grid cards" markdown>
 
--   ![Image 1](path/to/image.png)
+-   ![Image 1](https://picsum.photos/600/400)
 
     __Image Card 1__
     
     Description for image 1
 
--   ![Image 2](path/to/image.png)
+-   ![Image 2](https://picsum.photos/600/400)
 
     __Image Card 2__
     
@@ -145,7 +145,7 @@ The basic grid layout requires:
 </div>
 
 
-## Card Modifiers
+<!-- ## Card Modifiers
 
 ### Icon Classes
 - `.lg`: Large icon
@@ -177,7 +177,7 @@ You can add custom CSS to modify the grid layout:
 .grid > ul {
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
-```
+``` -->
 
 ## Best Practices
 
