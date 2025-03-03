@@ -116,43 +116,17 @@ nav:
 
 ## Best Practices
 
-1. **Be Consistent**
-   - Use similar styles of icons throughout your docs
-   - Stick to a consistent icon set
+1. **Be Consistent**   
+      - Use similar styles of icons throughout your docs
+      - Stick to a consistent icon set
 
 2. **Don't Overuse**
-   - Use icons to enhance readability, not to decorate
-   - Keep it professional
+      - Use icons to enhance readability, not to decorate
+      - Keep it professional
 
 3. **Accessibility**
-   - Always provide text alongside icons
-   - Don't rely solely on icons to convey meaning
-
-## Popular Icon Combinations
-
-### For Documentation
-```markdown
-:material-book: Documentation
-:material-file-document: Guidelines
-:material-information: Information
-:material-help-circle: Help
-```
-
-### For Development
-```markdown
-:material-code-tags: Code
-:material-git: Version Control
-:material-database: Database
-:material-api: API
-```
-
-### For Navigation
-```markdown
-:material-home: Home
-:material-arrow-left: Back
-:material-menu: Menu
-:material-link: Links
-```
+      - Always provide text alongside icons
+      - Don't rely solely on icons to convey meaning
 
 ## Tips and Tricks
 
