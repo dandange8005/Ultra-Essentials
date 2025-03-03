@@ -70,10 +70,10 @@ Material icons can be added using the `:material-[icon-name]:` syntax:
 
 Common Material icons:
 
-- `:material-account:` Account
-- `:material-cog:` Settings
-- `:material-help:` Help
-- `:material-lightbulb:` Lightbulb
+- :material-account: Account
+- :material-cog: Settings
+- :material-help: Help
+- :material-lightbulb: Lightbulb
 
 ### 3. Finding Icons
 
