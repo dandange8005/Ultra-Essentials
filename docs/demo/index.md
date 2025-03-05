@@ -32,7 +32,7 @@ Finally, you can add `#` tags for headings of different levels (H1-H6).
 ## Heading 2
 ### Heading 3
 
-![Accommadation status](accommodation_status.png)
+![Accommadation status](accommodation-status.png)
 
 <!-- ## Linking to other pages
 
