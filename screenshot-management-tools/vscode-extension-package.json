@@ -1,0 +1,99 @@
+{
+  "name": "mkdocs-screenshot-helper",
+  "displayName": "MkDocs Screenshot Helper",
+  "description": "Helps manage screenshots in MkDocs Material documentation",
+  "version": "0.1.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "mkdocs-screenshot.handlePaste",
+        "title": "MkDocs: Paste & Process Screenshot"
+      },
+      {
+        "command": "mkdocs-screenshot.generateName",
+        "title": "MkDocs: Generate Screenshot Filename"
+      },
+      {
+        "command": "mkdocs-screenshot.showMenu",
+        "title": "MkDocs: Screenshot Helper Menu"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "mkdocs-screenshot.handlePaste",
+        "key": "ctrl+shift+v",
+        "mac": "cmd+shift+v",
+        "when": "editorTextFocus && editorLangId == markdown"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorLangId == markdown",
+          "command": "mkdocs-screenshot.generateName",
+          "group": "navigation"
+        },
+        {
+          "when": "editorLangId == markdown",
+          "command": "mkdocs-screenshot.handlePaste",
+          "group": "navigation"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "MkDocs Screenshot Helper",
+      "properties": {
+        "mkdocsScreenshotHelper.screenshotPath": {
+          "type": "string",
+          "default": "assets/screenshots",
+          "description": "Path to store screenshots (relative to docs folder)"
+        },
+        "mkdocsScreenshotHelper.namingPattern": {
+          "type": "string",
+          "default": "{page}_{section}_{description}_v{version}",
+          "description": "Pattern for naming screenshots"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js",
+    "vscode:prepublish": "npm run lint"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.60.0",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "14.x",
+    "eslint": "^7.27.0",
+    "glob": "^7.1.7",
+    "mocha": "^8.4.0",
+    "typescript": "^4.3.2",
+    "vscode-test": "^1.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mkdocs-screenshot-helper"
+  },
+  "keywords": [
+    "mkdocs",
+    "screenshot",
+    "documentation",
+    "material"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

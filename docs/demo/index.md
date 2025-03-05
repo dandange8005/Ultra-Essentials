@@ -34,7 +34,7 @@ Finally, you can add `#` tags for headings of different levels (H1-H6).
 
 ![Accommadation status](accommodation-status.png)
 
-<!-- ## Linking to other pages
+## Linking to other pages
 
 One of the benefit of using a markdown file is that you can easily link to other pages within the same repository. This is useful for creating a table of contents or linking to related content.
 
@@ -46,8 +46,6 @@ For example, I want to write a paragraph about the benefits of using markdown fi
 - [[icons-emojis]]
 - [[callouts]]
 
-
-
 ```
 
 For example, I want to write a paragraph about the benefits of using markdown files and introduce some [basic markdown syntax](basic-markdown.md). I can also create a list of items that link to the mkdocs pages:
@@ -55,4 +53,6 @@ For example, I want to write a paragraph about the benefits of using markdown fi
 - [[buttons]]
 - [[icons-emojis]]
 - [[callouts]]
-  -->
+ 
+
+ 
