@@ -11,9 +11,8 @@ An expeiemental project to convert the [Ultra Essentials](https://xerte.cardiff.
 - [MkDocs](https://www.mkdocs.org/) - A fast, simple and downright gorgeous static site generator that's geared towards building project documentation.
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) - A Material Design theme for MkDocs.
 - [Markdown](https://www.markdownguide.org/) - A lightweight markup language with plain-text-formatting syntax.
-- [Python](https://www.python.org/) - An interpreted, high-level and general-purpose programming language.
-- [Git](https://git-scm.com/) - A distributed version-control system for tracking changes in source code during software development.
-- [Github](https://github.com/) - A Git repository hosting service.
+- [Python](https://www.python.org/)
+- [Git](https://git-scm.com/)
 - [Github Actions](https://docs.github.com/en/actions) - A CI/CD tool that helps you automate your workflow.
 
 
