@@ -1,0 +1,332 @@
+/* This is where the custom styles goes */
+
+:root {
+
+  /* primary colours */
+  --cu-red: #E4251B;
+  --cu-black: #121212;
+
+  /* secondary colours */
+  --cu-fortest-green: #07873E;
+  --cu-cadet: #5EB99B;
+  --cu-light-blue:#1E90FF;
+  --cu-royal-blue: #4A42FF;
+  --cu-orange: #E9761E;
+  --cu-yellow: #FFB300;
+  --cu-indigo: #570185;
+  --cu-dark-violet: #D401C5;
+
+  /* gray scales */
+
+  --cu-gray-100: #F2F2F2;
+  --cu-gray-200: #E5E5E5;
+  --cu-gray-300: #CCCCCC;
+  --cu-gray-400: #B3B3B3;
+  --cu-gray-500: #999999;
+  --cu-gray-600: #808080;
+  --cu-gray-700: #666666;
+  --cu-gray-800: #4C4C4C;
+  --cu-gray-900: #333333;
+
+
+  /* Primary color shades */
+  --md-primary-fg-color: var(--cu-red);
+  --md-primary-fg-color--light: #F5A3A0;
+  --md-primary-fg-color--dark: #5B0F0C;
+
+  /* accent color */
+  --md-accent-fg-color: var(--cu-black);
+  /* --md-accent-fg-color--dark: #034494; */
+
+
+}
+
+/* Typography */
+
+/* Headings */
+.md-typeset h1 {
+  color: var(--md-primary-fg-color);
+}
+
+/* side navigation links */
+.md-nav__item .md-nav__link--active {
+  font-weight: bold;
+}
+
+/* links */
+
+/* External link */
+
+.external-link::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='14' height='14'%3E%3Cpath fill='currentColor' d='M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z'/%3E%3C/svg%3E");
+  display: inline-block;
+  margin-left: 4px;
+  vertical-align: middle;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.external-link:hover::after {
+  opacity: 1;
+}
+
+/* .md-typeset a {
+  text-decoration: underline;
+} */
+
+
+/* -------- Lists ------------ */
+
+/* Custom task list icon colour */
+.md-typeset [type=checkbox]:checked+.task-list-indicator:before {
+  background-color: var(--md-primary-fg-color);
+
+}
+
+/* ------- Admonition --------- */
+
+/* Custom "cu-red" admonition using cu-red */ 
+:root {
+  --md-admonition-icon--important: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>wheelchair-accessibility</title><path d="M18.4,11.2L14.3,11.4L16.6,8.8C16.8,8.5 16.9,8 16.8,7.5C16.7,7.2 16.6,6.9 16.3,6.7L10.9,3.5C10.5,3.2 9.9,3.3 9.5,3.6L6.8,6.1C6.3,6.6 6.2,7.3 6.7,7.8C7.1,8.3 7.9,8.3 8.4,7.9L10.4,6.1L12.3,7.2L8.1,11.5C8,11.6 8,11.7 7.9,11.7C7.4,11.9 6.9,12.1 6.5,12.4L8,13.9C8.5,13.7 9,13.5 9.5,13.5C11.4,13.5 13,15.1 13,17C13,17.6 12.9,18.1 12.6,18.5L14.1,20C14.7,19.1 15,18.1 15,17C15,15.8 14.6,14.6 13.9,13.7L17.2,13.4L17,18.2C16.9,18.9 17.4,19.4 18.1,19.5H18.2C18.8,19.5 19.3,19 19.4,18.4L19.6,12.5C19.6,12.2 19.5,11.8 19.3,11.6C19,11.3 18.7,11.2 18.4,11.2M18,5.5A2,2 0 0,0 20,3.5A2,2 0 0,0 18,1.5A2,2 0 0,0 16,3.5A2,2 0 0,0 18,5.5M12.5,21.6C11.6,22.2 10.6,22.5 9.5,22.5C6.5,22.5 4,20 4,17C4,15.9 4.3,14.9 4.9,14L6.4,15.5C6.2,16 6,16.5 6,17C6,18.9 7.6,20.5 9.5,20.5C10.1,20.5 10.6,20.4 11,20.1L12.5,21.6Z" /></svg>')
+}
+
+.md-typeset .admonition.cu-red,
+.md-typeset details.cu-red {
+  border-color: var(--cu-red);
+}
+
+.md-typeset .cu-red > .admonition-title,
+.md-typeset .cu-red > summary {
+  background-color: rgba(228, 37, 27, 0.1);  /* cu-red with opacity */
+  border-color: var(--cu-red);
+}
+
+.md-typeset .cu-red > .admonition-title::before,
+.md-typeset .cu-red > summary::before {
+  background-color: var(--cu-red);
+  -webkit-mask-image: var(--md-admonition-icon--important);
+          mask-image: var(--md-admonition-icon--important);
+}
+
+/* -------------
+  Utility Classes
+---------------- */
+
+/* Text utility classes */
+
+.text-center {
+  text-align: center;
+}
+
+/* Shadow utility classes */
+.shadow-sm {
+  box-shadow: var(--shadow-1);
+}
+
+.shadow-md {
+  box-shadow: var(--shadow-2);
+}
+
+.shadow-lg {
+  box-shadow: var(--shadow-3);
+}
+
+/* Rounded corner utility classes */
+.rounded-none {
+  border-radius: var(--radius-0);
+}
+
+.rounded-sm {
+  border-radius: var(--radius-1);
+}
+
+.rounded {
+  border-radius: var(--radius-2);
+}
+
+.rounded-md {
+  border-radius: var(--radius-3);
+}
+
+.rounded-lg {
+  border-radius: var(--radius-4);
+}
+
+.rounded-xl {
+  border-radius: var(--radius-5);
+}
+
+.rounded-2xl {
+  border-radius: var(--radius-6);
+}
+
+/* 9-Column Flexbox Layout System */
+
+/* // Flex container */
+.flex-container {
+    --gap: 1rem;
+    display: flex;
+    gap: var(--gap);
+    flex-wrap: wrap;
+}
+
+/* Flex Utility classes */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-col-reverse {
+    flex-direction: column-reverse;
+}
+
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
+
+/* // Flex items */
+.flex-item {
+    flex: 1 1 0;
+    /* padding: 1rem; */
+}
+
+/* Remove top margin from first child of flex columns */
+.flex-item > *:first-child {
+  margin-top: 0;
+}
+
+/* Use .flex-1 to allow a flex item to grow and shrink as needed, ignoring its initial size
+.flex-1 {
+    flex: 1 1 0%;
+} */
+
+/* // .flex-initial to allow a flex item to shrink but not grow, taking into account its initial size  */
+.flex-initial {
+    flex: 0 1 auto;
+}
+
+/* // Use .flex-auto to allow a flex item to grow and shrink, taking into account its initial size */
+.flex-auto {
+    flex: 1 1 auto;
+}
+
+/* // Use .flex-none to prevent a flex item from growing or shrinking */
+.flex-none {
+    flex: none;
+}
+
+/* // Flex item with base set to differnet width */
+.flex-100 {
+    flex: 1 1 100px;
+}
+
+.flex-200 {
+    flex: 1 1 200px;
+}
+
+.flex-300 {
+    flex: 1 1 300px;
+}
+
+.flex-400 {
+    flex: 1 1 400px;
+}
+
+.flex-500 {
+    flex: 1 1 500px;
+}
+
+.flex-600 {
+    flex: 1 1 600px;
+}
+
+/* Cards */
+
+.card {
+  padding: var(--size-3);
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-2);
+  border: 1px solid var(--cu-gray-100);
+  background: var(--cu-gray-100);
+}
+
+.card > *:first-child {
+  margin-top: 0;
+}
+
+.card > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Dark mode styles */
+[data-md-color-scheme="slate"] .card {
+  border-color: var(--cu-gray-800);
+  background-color: var(--cu-gray-900);
+}
+
+[data-md-color-scheme="slate"] .card:hover {
+  box-shadow: var(--shadow-4);
+}
+
+/* Container query for responsive sizing */
+@container (width < 40rem) {
+  .card {
+    padding: var(--size-2);
+  }
+}
+
+
+/* Buttons */
+
+/* Disabled button style */
+.md-button--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+/* Custom button color */
+.md-button.custom {
+  background-color: #7c3aed;
+  border-color: #7c3aed;
+  color: #ffffff;
+}
+
+/* Hover state */
+.md-button.custom:hover {
+  background-color: #6d28d9;
+  border-color: #6d28d9;
+}
+
+/* Secondary button style */
+.md-button--secondary {
+  background-color: var(--cu-black);
+  border-color: var(--cu-black);
+  color: #ffffff;
+}
+
+/* Hover state */
+.md-button--secondary:hover {
+  background-color: transparent;
+  border-color: var(--cu-black);
+  color: var(--cu-black);
+}
+
+/* Focus state */
+.md-button--secondary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #1212121a;
+}
+
