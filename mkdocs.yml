@@ -46,6 +46,10 @@ nav:
 
   - Demo: 
     - demo/index.md
+    - Screenshots: demo/screenshots.md
+
+  - LTA:
+    - learning-teaching-academy/index.md
 
 # Theme settings
 
@@ -120,6 +124,8 @@ plugins:
       reconfigure_search: true
   - roamlinks # Roam Research links
   - git-revision-date-localized # Git revision date
+  - glightbox: # Image lightbox
+      manual: false
   - mkdocs-video:
       css_style:
         width: "100%"

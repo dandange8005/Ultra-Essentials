@@ -54,5 +54,7 @@ For example, I want to write a paragraph about the benefits of using markdown fi
 - [[icons-emojis]]
 - [[callouts]]
  
+## keyboard shortcuts
 
+++ctrl+alt+del++
  

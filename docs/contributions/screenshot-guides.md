@@ -206,3 +206,13 @@ Use this checklist to ensure your screenshots meet our documentation standards.
 - [x] No sensitive information is visible
 - [x] Alt text accurately describes the image
 - [x] Image properly integrates with surrounding text
+
+
+## VSCode Plugins
+
+- **Markdown All in One**: Useful for quick formatting and previewing
+
+### Image processing
+
+[Image](https://marketplace.visualstudio.com/items?itemName=n3rds-inc.image) { .external-link } - A powerful image processing tool for VSCode
+
