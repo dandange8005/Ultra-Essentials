@@ -183,6 +183,7 @@ markdown_extensions:
 # Exclude files
 draft_docs: |
   drafts/
+  _unpublished.md
 
 # Additional configuration
 extra:
