@@ -1,3 +1,10 @@
+---
+tags:
+      - accessibility
+      - Tag
+---
+
+
 # Demo page
 
 <!-- This is a demo page to showcase the basic markdown syntax supported by MkDocs. You can use this page as a reference when creating your own documentation. -->

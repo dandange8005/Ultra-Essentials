@@ -57,6 +57,10 @@ theme:
   name: material
   logo: assets/images/Cardiff-Logo-Red-Inversed.svg
   custom_dir: docs/overrides
+  icon:
+    tag: #tag icons
+      accessibility: material/wheelchair-accessibility
+      tag: material/tag
   features:
     - navigation.tabs # Navigation tabs at the top
     - navigation.tabs.sticky # Fixed navigation tabs while scrolling
@@ -106,6 +110,7 @@ theme:
 
 # Plugins
 plugins:
+  - tags
   - search: # Search plugin
       lang: 
         - en
@@ -187,6 +192,9 @@ draft_docs: |
 
 # Additional configuration
 extra:
+  tags: # Tags
+    - accessibility: accessibility
+    - Tag: tag
   status: 
     new: Recently added
   alternate:

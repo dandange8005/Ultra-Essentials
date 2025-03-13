@@ -1,6 +1,8 @@
----
-tags: MKDocs, tabs
----
+<!-- ---
+tags: 
+    - MKDocs
+    - tabs
+--- -->
 
 Tabs in allow you to organise content into switchable sections, making your documentation more organised and easier to navigate. 
 
