@@ -31,19 +31,19 @@ nav:
     - Course Staff List: getting-started/module-staff.md
   - Building Your Course:
     - Learning Modules and Folders: building-course/learning-modules-folders.md
-  - MKDocs: 
-    - mkdocs/index.md
-    - Basic Markdown: mkdocs/basic-markdown.md
-    - Buttons: mkdocs/buttons.md
-    - Call out: mkdocs/callouts.md
-    - Grids: mkdocs/grids.md
-    - Icons and Emojis: mkdocs/icons-emojis.md
-    - Images: mkdocs/images.md
-    - Multimedia: mkdocs/multimedia-embedding.md
-    - Tabs: mkdocs/tabs.md
-    - Tasks List: mkdocs/tasks-list.md
-  - Contributions:
-    - Screenshot Guides: contributions/screenshot-guides.md
+  # - MKDocs: 
+  #   - mkdocs/index.md
+  #   - Basic Markdown: mkdocs/basic-markdown.md
+  #   - Buttons: mkdocs/buttons.md
+  #   - Call out: mkdocs/callouts.md
+  #   - Grids: mkdocs/grids.md
+  #   - Icons and Emojis: mkdocs/icons-emojis.md
+  #   - Images: mkdocs/images.md
+  #   - Multimedia: mkdocs/multimedia-embedding.md
+  #   - Tabs: mkdocs/tabs.md
+  #   - Tasks List: mkdocs/tasks-list.md
+  # - Contributions:
+  #   - Screenshot Guides: contributions/screenshot-guides.md
   - Demo: 
     - demo/index.md
     - Screenshots: demo/screenshots.md
@@ -119,32 +119,6 @@ plugins:
           name: English
           build: true
           # English Navigation settings
-          nav:
-            - Home: index.md
-            - LTA Home: learning-teaching-academy/index.md
-            - Getting Started:
-              - Base Navigation: getting-started/base-navigation.md
-              - Navigating inside an Ultra course: getting-started/nav-inside-course.md
-              - Personal Profile: getting-started/personal-profile.md
-              - Course Staff List: getting-started/module-staff.md
-            - Building Your Course:
-              - Learning Modules and Folders: building-course/learning-modules-folders.md
-            - MKDocs: 
-              - mkdocs/index.md
-              - Basic Markdown: mkdocs/basic-markdown.md
-              - Buttons: mkdocs/buttons.md
-              - Call out: mkdocs/callouts.md
-              - Grids: mkdocs/grids.md
-              - Icons and Emojis: mkdocs/icons-emojis.md
-              - Images: mkdocs/images.md
-              - Multimedia: mkdocs/multimedia-embedding.md
-              - Tabs: mkdocs/tabs.md
-              - Tasks List: mkdocs/tasks-list.md
-            - Contributions:
-              - Screenshot Guides: contributions/screenshot-guides.md
-            - Demo: 
-              - demo/index.md
-              - Screenshots: demo/screenshots.md
 
 
         - locale: cy

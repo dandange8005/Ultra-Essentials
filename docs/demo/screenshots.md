@@ -1,10 +1,3 @@
----
-tags:
-      - accessibility
-      - Tag
----
-
-
 ## Comparing png and webp
 
 <div class="grid cards" markdown>
