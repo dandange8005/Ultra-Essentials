@@ -5,7 +5,7 @@ hide:
     - footer
 ---
 
-<h1>Welcome to Learning Central Essentials</h1>
+
 
 <div class="flex-container" markdown>
 <div class="flex-item flex-400" markdown>
