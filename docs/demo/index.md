@@ -4,15 +4,19 @@ tags:
       - Tag
 ---
 
+<!-- This is a demo page to showcase the basic markdown syntax supported by MkDocs. You can use this page as a reference when creating your own documentation. -->
 
 # Demo page
 
-<!-- This is a demo page to showcase the basic markdown syntax supported by MkDocs. You can use this page as a reference when creating your own documentation. -->
+
+<!-- 
+
 
 ## Text formatting
 
+This **bold text** and this *italicized text* show emphasis, while ***bold and italics together*** create stronger emphasis. You can also use __underscores__ for **bold** and _italics_. For code snippets, use `inline code` with backticks. To ~~strike through~~ text, use tildes. Create [links](https://example.com "Optional Title") easily, and even use ![image alt text](https://unsplash.it/300/200 "Optional Image Title") for images.
 
-This **bold text** and this *italicized text* show emphasis, while ***bold and italics together*** create stronger emphasis. You can also use __underscores__ for **bold** and _italics_. For code snippets, use `inline code` with backticks. To ~~strike through~~ text, use tildes. Create [links](https://example.com "Optional Title") easily, and even use ![image alt text](https://unsplash.it/300/200 "Optional Image Title") for images. Use 
+## Lists and blockquotes
 
 > for blockquotes, 
 
@@ -39,21 +43,20 @@ Finally, you can add `#` tags for headings of different levels (H1-H6).
 ## Heading 2
 ### Heading 3
 
+
+## Inserting images
+
+![[image.png|alt text]]
+
+![The name of the image](image.png)
+
 ![Accommadation status](accommodation-status.png)
 
 ## Linking to other pages
 
 One of the benefit of using a markdown file is that you can easily link to other pages within the same repository. This is useful for creating a table of contents or linking to related content.
 
-```markdown
-
-For example, I want to write a paragraph about the benefits of using markdown files and introduce some [basic markdown syntax](basic-markdown.md). I can also create a list of items that link to the mkdocs pages:
-
-- [[buttons]]
-- [[icons-emojis]]
-- [[callouts]]
-
-```
+## Linking to other pages
 
 For example, I want to write a paragraph about the benefits of using markdown files and introduce some [basic markdown syntax](basic-markdown.md). I can also create a list of items that link to the mkdocs pages:
 
@@ -64,4 +67,4 @@ For example, I want to write a paragraph about the benefits of using markdown fi
 ## keyboard shortcuts
 
 ++ctrl+alt+del++
- 
+  -->

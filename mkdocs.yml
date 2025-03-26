@@ -70,7 +70,7 @@ theme:
     - toc.follow # Scrolling table of contents
     # - toc.integrate # Sidebar table of contents (disabled)
     - search.suggest # Search with suggestions
-    - search.highlight # Highlight search matches
+    # - search.highlight # Highlight search matches (disabled)
     - search.share # Share search results
     # - content.tabs.link # Link content tabs (disabled)
     - content.code.annotate # Code block annotations
