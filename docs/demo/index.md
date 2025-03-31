@@ -8,6 +8,94 @@ tags:
 
 # Demo page
 
+## Basic Markdown syntax
+
+This is a paragraph with some **bold text** and some *italicized text*. You can also use ***bold and italics together*** for stronger emphasis. For code snippets, use `inline code` with backticks. To ~~strike through~~ text, use tildes. Create [links](https://example.com "Optional Title") easily, and even use ![image alt text](https://unsplash.it/300/200 "Optional Image Title") for images.
+
+## Lists and blockquotes
+
+> For blockquotes, use the greater than sign.
+
+Ordered lists:
+
+1. First item
+2. Second item
+      - Nested unordered item
+      - Another nested item
+
+Unordered lists:
+
+- First item
+- Second item
+      1. Nested unordered item
+      2. Another nested item
+
+Images:
+
+![The name of the image](image.png)
+
+Tables:
+
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1   | Cell 2   |
+
+Links to other pages:
+
+For example, I want to write a paragraph about the benefits of using markdown files and introduce some [basic markdown syntax](basic-markdown.md). I can also create a list of items that link to the mkdocs pages:
+
+- [Another demo page](demo2.md)
+
+## Buttons and callouts
+
+[Regular button](#){.md-button}
+[Primary button](#){.md-button .md-button--primary}
+
+!!! note "Note"
+    Use for general information and neutral observations.
+
+!!! info "Info"
+    Perfect for additional context and background information.
+
+!!! abstract "Abstract"
+    Ideal for summaries and high-level overviews.
+
+## Grid layouts
+
+<div class="grid cards" markdown>
+
+-   ![Image 1](https://picsum.photos/600/400)
+
+    __Image Card 1__
+    
+    Description for image 1
+
+-   ![Image 2](https://picsum.photos/600/400)
+
+    __Image Card 2__
+    
+    Description for image 2
+
+</div>
+
+## Videos
+
+Vimeo video
+![type:video](https://player.vimeo.com/video/856728791)
+
+Panopto video
+![type:video](https://cardiff.cloud.panopto.eu/Panopto/Pages/embed.aspx?id=d25a0b26-00c7-47f3-9e8e-aecf01555564&start=0)
+
+## Tabs
+
+=== ":material-microsoft: Windows"
+    Windows-specific instructions...
+
+=== ":material-apple: iOS"
+    iOS-specific instructions...
+
+=== ":octicons-browser-16: Web"
+    Web platform instructions...
 
 <!-- 
 
